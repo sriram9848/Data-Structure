@@ -1,0 +1,11 @@
+#include <stdio.h>  
+#include <string.h>  
+void main()  
+{  
+    char str[40]; 
+    clrsrc();
+    printf (" \n Enter a string : ");  
+    scanf ("%s", str);    
+    printf (" \n After the reverse of a string: %s ", strrev(str));  
+    getch();  
+}  
